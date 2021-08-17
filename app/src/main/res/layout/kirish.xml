@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/profilrr"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logooo1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nommii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/ismi"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilrr" />
+
+    <Button
+        android:id="@+id/tahrir"
+        android:layout_width="116dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tahrirlash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nommii" />
+
+    <ImageView
+        android:id="@+id/btninstag"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/tahrir"
+        app:layout_constraintTop_toBottomOf="@+id/nommii"
+        app:srcCompat="@drawable/instagram"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btncoll"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btninstag"
+        app:layout_constraintTop_toBottomOf="@+id/nommii"
+        app:srcCompat="@drawable/saqllllllll"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editozgar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nom_kiriting"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahrir"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnsaqla"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/save"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnkamer"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/editozgar"
+        app:layout_constraintTop_toBottomOf="@+id/tahrir"
+        app:srcCompat="@drawable/came"
+        tools:ignore="ContentDescription,MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">15-Maktab</string>
+    <string name="_4_g">4 G</string>
+    <string name="_15_umumiy_o_rta_ta_lim_maktabi">15 - umumiy o`rta ta`lim maktabi</string>
+    <string name="sinf_qo_shish">sinf qo`shish</string>
+    <string name="o_qituvchi_uchun">O\'qituvchi ma\'lumotlari</string>
+    <string name="o_quvchi_malumotlari">O\'quvchi ma\'lumotlari</string>
+    <string name="ma_lumot">ma\'lumot</string>
+    <string name="sozlamalar">sozlamalar</string>
+    <string name="murojat">murojat</string>
+    <string name="ismi">ismi</string>
+    <string name="tahrirlash">Tahrirlash</string>
+    <string name="nom_kiriting">nom kiriting</string>
+    <string name="ma1lumotlar_bazasiga_ulanmagansiz">Malumotlar bazasiga ulanmagansiz</string>
+    <string name="video_darsliklar">video darsliklar</string>
+    <string name="internetga_ulanmagansiz">internetga ulanmagansiz</string>
+    <string name="textview">TextView</string>
+    <string name="dasturchi_bilan_aloqa">Dasturchi bilan Aloqa</string>
+    <string name="_998995340313">+998995340313</string>
+    <string name="quvvat">quvvat</string>
+    <string name="tungi_rejim">Tungi rejim</string>
+    <string name="shrift_kattaligi">Shrift kattaligi</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tartibb"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:hint="tartibi"
+        android:visibility="invisible"
+        android:layout_marginHorizontal="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lisqosh"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints" />
+    <EditText
+        android:id="@+id/lisqosh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="@string/sinf_qo_shish"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnsaqlalis"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/lisqosh"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/save"
+        tools:ignore="ContentDescription" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="383dp"
+        android:layout_height="628dp"
+        android:layout_marginTop="56dp"
+        android:divider="#E0E1EF"
+        android:dividerHeight="8dp"
+        android:listSelector="#47DF11"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="AdapterViewChildren">
+
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btnqoshbo"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="ContentDescription" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="254dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:outlineSpotShadowColor="#122FEA"
+        android:outlineAmbientShadowColor="#EC1010"
+        app:layout_constraintBottom_toTopOf="@+id/lv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/textsin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColorHint="#F60000"
+        android:textSize="20dp"
+        android:textColor="#0841EA"
+        app:layout_constraintBottom_toTopOf="@+id/lv"
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+</android.support.constraint.ConstraintLayout>
